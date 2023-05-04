@@ -1,0 +1,20 @@
+# Testes de Unidade
+    - Testes de "white box" (desenvolvedor conhece o código implementado);
+    - São frequentemente alterados;
+    - Feito para verificar as peças de código individuais;
+    - Detecção precoce de bugs nas funcionalidades ou recursos recém-desenvolvidos;
+    - Minimiza os custos de teste à medida que os problemas são detectados no início;
+    - Melhora a qualidade do código com melhor refatoração de código;
+    - Apoia o processo de desenvolvimento ágil;
+    - Simplifica a integração e permite uma boa documentação;
+
+# Testes Funcionais
+    - Testes de "black box" (desenvolvedor desconhece o código implementado);
+    - São alterados com menor frequencia em relação aos testes de unidade;
+    - Feito para validar as funcionalidades;
+    - Certifique-se de que o site/aplicativo está livre de defeitos;
+    - Garante o comportamento esperado de todas as funcionalidades;
+    - Garante que a arquitetura esteja correta com a segurança necessária;
+    - Melhora a qualidade e funcionalidades gerais;
+    - Minimiza os riscos do negócio associados ao site/aplicativo;
+
