@@ -90,12 +90,12 @@ class NewVisitorTest(LiveServerTestCase):
 
         # João visita a página inicial. Não existe nenhum sinal da lista de Maria
         self.browser.get(self.live_server_url)
-        page_text = self.browser.find_element_by_tag_name('body').text
+        page_text = self.browser.find_element(By.TAG_NAME, 'body').text
         self.assertNotIn('1: Estudar testes funcionais', page_text)
         self.assertNotIn('2: Estudar testes de unidade', page_text)
 
         # João inicia uma nova lista
-        inputbox = self.browser.find_element_by_id('id_new_item')
+        inputbox = self.browser.find_element(By.ID, 'id_new_item')
         inputbox.send_keys('Comprar leite')
         inputbox.send_keys(Keys.ENTER)
         self.wait_for_row_in_list_table('1: Comprar leite')
@@ -106,7 +106,7 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertNotEqual(joao_list_url, maria_list_url)
 
         # Novamente, não existe sinal da lista de Maria
-        page_text = self.browser.find_element_by_tag_name('body').text
+        page_text = self.browser.find_element(By.TAG_NAME, 'body').text
         self.assertNotIn('Estudar testes funcionais', page_text)
         self.assertIn('Comprar leite', page_text)
 
