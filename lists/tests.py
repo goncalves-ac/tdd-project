@@ -1,6 +1,5 @@
 from django.test import TestCase
-from lists.models import Item
-
+from lists.models import Item, List
 
 class HomePageTest(TestCase):
 
@@ -25,9 +24,10 @@ class HomePageTest(TestCase):
         self.client.get('/')
         self.assertEqual(Item.objects.count(), 0)
 
-    def test_displays_all_list_items(self):
-        Item.objects.create(text='itemey 1')
-        Item.objects.create(text='itemey 2')
+    def test_displays_all_items(self):
+        my_list = List.objects.create()
+        Item.objects.create(text='itemey 1', list=my_list)
+        Item.objects.create(text='itemey 2', list=my_list)
 
         response = self.client.get('/')
 
@@ -57,6 +57,10 @@ class ItemModelTest(TestCase):
 
 
 class ListViewTest(TestCase):
+
+    def test_uses_list_template(self):
+        response = self.client.get('/lists/the-only-list-in-the-world/')
+        self.assertTemplateUsed(response, 'list.html')
 
     def test_displays_all_items(self):
         Item.objects.create(text='itemey 1')

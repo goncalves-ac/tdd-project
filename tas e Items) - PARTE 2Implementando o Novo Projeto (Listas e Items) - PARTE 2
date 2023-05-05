@@ -1,0 +1,203 @@
+[33mcommit 0e94801c07eae0e7f49f2783b2efe48c8537e678[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Fri May 5 15:45:19 2023 -0300
+
+    Implementando o Novo Projeto (Listas e Items) - PARTE 2
+
+[33mcommit 318e84611796c5cd59a87829f016093d7d03a438[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Fri May 5 15:40:10 2023 -0300
+
+    Implementando o Novo Projeto (Listas e Items) - PARTE 1
+
+[33mcommit a1fd5d405187965535e52705fa336720b27ca722[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Fri May 5 15:38:10 2023 -0300
+
+    Trabalhando com Múltiplas Listas & API REST
+
+[33mcommit fe9e232035a31c1432401ab8599b3b02be3d249f[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Fri May 5 15:27:08 2023 -0300
+
+    Melhoria 1: Isolando Testes Funcionais
+
+[33mcommit a5e642cc7f994b08b3244c6309e4d94c90ec103a[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Fri May 5 15:24:26 2023 -0300
+
+    Iniciando a aula 3 e aplicando algumas correções que foram necessárias para passar nos testes
+
+[33mcommit 38524d27cad107f6333af484e22bb2d6d971e91e[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Thu May 4 18:19:20 2023 -0300
+
+    Criando BD de Produção
+
+[33mcommit 0fd78aa9bbaba746e306ccfe02b80c9c6bee9b07[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Thu May 4 18:13:51 2023 -0300
+
+    Apresentar Múltiplos Itens na Listagem
+
+[33mcommit 5873546622bc16712aae95bf91e800fa25da8514[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Thu May 4 18:11:35 2023 -0300
+
+    Refatorando o Teste de Unidade (boa prática: método de teste deve testar apenas uma coisa)
+
+[33mcommit fe95a6ace85334639781cb1cfb09bdfd0e74a996[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Thu May 4 18:10:02 2023 -0300
+
+    Redirecionando após o POST
+
+[33mcommit 560e807f77bc40a6df60c5808ef839567f68e33b[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Thu May 4 18:08:46 2023 -0300
+
+    Não Salvar Items em Branco a cada Requisição
+
+[33mcommit 5449ee9115043dcfeda49a794196813a59202b9e[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Thu May 4 18:07:08 2023 -0300
+
+    Salvando o POST no Banco de Dados
+
+[33mcommit df019b5435dfcd5175247ca5b0a874af36eb1225[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Thu May 4 18:05:12 2023 -0300
+
+    Persistindo os Dados
+
+[33mcommit d07ad16c61d4fa8527bfddc216098b6bc38eecf8[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Thu May 4 17:59:00 2023 -0300
+
+    Refatorando o Teste Funcional
+
+[33mcommit 7b436745df127adb9a16a61b9fd1b9c7b06d3fb0[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Thu May 4 17:54:38 2023 -0300
+
+     Melhorando e Expandindo o Teste Funcional
+
+[33mcommit 6ab0ea5c63cad2f856f990fcf1a7c336505fd605[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 23:37:54 2023 -0300
+
+    Regressão
+
+[33mcommit 456feb499835c5abb20e80baa0f1a88d95c3e454[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 23:36:13 2023 -0300
+
+    Passando Variáveis no Template
+
+[33mcommit 34b63fd5c3614b33c5f97b9876460cd297112c6e[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 23:32:40 2023 -0300
+
+    Criando Form para Enviar Requisição
+
+[33mcommit 87396ff1d15b149e8306e4d85b50f04b9246f1a1[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 23:27:47 2023 -0300
+
+    Utilizando o Django Test Client
+
+[33mcommit 11f8dbd5ce77c2379d6d9db58921c9c85c664e16[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 23:24:50 2023 -0300
+
+    Refatorando a aplicação para utilizar templates
+
+[33mcommit 88edec6e4e4bed1db666611f53d37afe8d4f73ba[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 23:19:25 2023 -0300
+
+    Utilizando Selenium para Testar Interações do Usuário
+
+[33mcommit 6e0f6622c0d62900bad4cd9b48bdaac89f789f91[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 23:16:14 2023 -0300
+
+    Teste de Unidade/Desenvolvimento
+
+[33mcommit d31cb60535cd6bc855ffa79d94e321c8f5115cca[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 23:13:30 2023 -0300
+
+    Melhorando o Teste de Unidade
+
+[33mcommit 1cf9d8ac6ab95a5bf8140d99650c1f3a2898c35e[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 23:11:27 2023 -0300
+
+    Escrevendo código da aplicação - realizei correções no código para funcionar
+
+[33mcommit 0fe2d44be5c31bce78b3507acad58f6e28cd23ba[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 23:02:33 2023 -0300
+
+    Um pouco de arquitetura web: MVC, URLs e View
+
+[33mcommit 88b181970d710d5049f188bf4faf1436bfd28215[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 23:00:16 2023 -0300
+
+    Iniciando com Testes de Unidade
+
+[33mcommit fc419fcd5a175173f1a83517a0503fb51274c6a5[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 22:57:42 2023 -0300
+
+    Testes Funcionais vs. Testes de Unidade
+
+[33mcommit 709c8a369d5c6b8f4155000ebfeefeadb4afff7f[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 22:46:11 2023 -0300
+
+    Criando um app Django
+
+[33mcommit 8f112b769f53d8714b2124d94f3f945b78b6ccc3[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 22:44:11 2023 -0300
+
+    Melhorando a classe de teste com setUp e tearDown
+
+[33mcommit 3bd5f83d0ae1dbbf4acd6b62ab95c68fdd21091f[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 22:43:05 2023 -0300
+
+    Utilizando o módulo unittest
+
+[33mcommit ee19ac5272664f11323e7c17c82383152f77abf8[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 22:40:28 2023 -0300
+
+    Utilizando Testes Funcionais para planejar um MVP
+
+[33mcommit 58655b3f84098ac566edbe60d3d8be1084b28ab4[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 22:30:49 2023 -0300
+
+    Criando projeto Django e subindo o servidor
+
+[33mcommit fd7b08a1f7f81cbb5457e8a8ae8a4498d83a55e2[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 22:24:48 2023 -0300
+
+    Commit 'gitignore'
+
+[33mcommit be9bea4058a5e4e56290960e4be250b8a8eadda2[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 20:54:01 2023 -0300
+
+    Iniciando com Testes Funcionais
+
+[33mcommit d39e89c5c07c2dfed4bc97d8e05828a9b106cf1f[m
+Author: goncalves-ac <goncalves.ac@outlook.com>
+Date:   Wed May 3 20:20:01 2023 -0300
+
+    First commit
