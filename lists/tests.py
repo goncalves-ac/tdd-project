@@ -19,7 +19,9 @@ class HomePageTest(TestCase):
         response = self.client.get('/')
 
         self.assertIn('itemey 1', response.content.decode())
+        print(response.content.decode())
         self.assertIn('itemey 2', response.content.decode())
+        print(response.content.decode())
 
 
 
@@ -74,6 +76,12 @@ class ListViewTest(TestCase):
         self.assertContains(response, 'itemey 2')
         self.assertNotContains(response, 'other list item 1')
         self.assertNotContains(response, 'other list item 2')
+
+    def test_passes_correct_list_to_template(self):
+        other_list = List.objects.create()
+        correct_list = List.objects.create()
+        response = self.client.get(f'/lists/{correct_list.id}/')
+        self.assertEqual(response.context['list'], correct_list)
 
 class NewListTest(TestCase):
 
